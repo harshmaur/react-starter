@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+// @flow
+
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -17,5 +19,11 @@ class App extends Component {
     );
   }
 }
+
+function square(n: number) {
+  return n * n;
+}
+
+square(1);
 
 export default App;
