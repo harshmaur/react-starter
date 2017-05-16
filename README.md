@@ -16,7 +16,7 @@ Install the following
 
 Use the following config 
 
-```json
+```js
 {
     "editor.fontSize": 13,
     "editor.tabSize": 2,
